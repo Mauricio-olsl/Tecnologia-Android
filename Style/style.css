@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+ * {    /* declaração global  */
+        padding:0px;
+        margin: 0px;
+}
+:root {
+        --cor0: #C5EBD5; /*Variaveis*/
+        --cor1: #83E1AD;
+        --cor2: #3DDC84;
+        --cor3: #2FA866;
+        --cor4: #1A5C37;
+        --cor5: #063D1E;
+
+        --fonte-padrao: Arial,verdana,helvetica,sans-serif;
+        --fonte-destaque: 'Bebas Neue', cursive;
+        --fonte-android: 'android', corsive,
+}
+
+body {
+        background-color: var(--cor0);
+        font-family: var(--fontes-padrao);        
+        }   
+        
+ 
+
+header {
+        font-family: var(--fonte-destaque);
+        font-size: larger;          
+       background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));     /* cabeçalho*/
+        height: 175px;
+        }
+
+header > h1 {
+    color: rgb(222, 238, 222); /* titulo - Curiosidade*/
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    text-shadow:3px 3px 0px rgba(0, 0, 0, 0.743) ;
+    }
+
+.titulodois {
+            font-size: 1.2rem;
+
+            font-family: var(--fonte-padrao) ;
+            }
+
+main { 
+        background-color: white;      /* Corpo de assuntos*/
+        min-width: 300px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.412);
+        border-radius: 0px 0px 20px 20px;
+
+    } 
+main p {
+        margin: 15px 0px; 
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+}       
+
+main strong {
+        color: var(--cor4);
+        font-weight: bold;
+        background-image: linear-gradient(to right, var(--cor1), transparent);
+        padding: 2px;
+}
+
+main a {
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--cor5);
+        background-image: linear-gradient(to right, var(--cor1), transparent);
+        padding: 2px 6px ;
+}
+
+main a:hover {
+        text-decoration: underline;
+        color: #1A5C37;
+        background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+
+}
+
+img {
+        width: 100%;
+ }
+
+ main img.pequena {
+        max-width: 350px;
+        display: block;  /* droids imagem para width de 400px*/
+        margin: auto;
+ }
+
+nav { /*  estilo do menu*/
+       padding-left: 10px;
+       background-color: var(--cor5);
+    }
+nav > a { 
+        text-decoration: none;
+        color: rgb(234, 242, 236);  /*lista do menu */
+        font-size: .9rem;
+        margin-right: 20px;
+        border-radius: 3px;
+        }
+nav > a:hover {
+        background-color:  var(--cor2); /* efeitos do menu*/
+        color: var(--cor5);
+        padding: 5px;
+        transition-duration: .4s;
+        }
+
+h2 {
+        font-family: 'IDroid', normal;
+        font-size: 2rem;
+        color: var(--cor3);
+        }
+article{
+        background-color: rgb(251, 250, 250);
+        }
+
+iframe {
+        width: 100%;
+        border: 15px solid rgb(2, 85, 28);
+        width: 480px; 
+        height: 230px;
+        margin-bottom: 10px;
+        }
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+ ul {
+        list-style-position: inside;
+        columns: 2;
+        list-style-type: '\2714\00A0\00A0';
+}
+.extra {
+    background-color:var(--cor3);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px -10px -10px;
+    padding: 5px;
+
+}
+li > abbr{
+   text-decoration: none; /* lista dos extras*/
+}
+footer {
+        background-image: linear-gradient(to right, var(--cor4), var(--cor1));
+        color: white;
+        text-align: center; 
+        font-size: 1em;
+        padding: 5px;
+        }
+
+.logo {
+        height: 30px;
+        width: 25px;
+        padding: 10px 20px;
+        padding-bottom: 0px ;
+}
+
