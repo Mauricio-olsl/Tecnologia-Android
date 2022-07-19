@@ -97,7 +97,6 @@ main a:hover {
         text-decoration: underline;
         color: #1A5C37;
         background-image: linear-gradient(to right, var(--cor0), var(--cor1));
-
 }
 img {
         width: 100%;
@@ -107,7 +106,6 @@ img {
         display: block;  /* droids imagem para width de 400px*/
         margin: auto;
  }
-
 h2 {
         font-family: 'IDroid', normal;
         font-size: 2rem;
@@ -117,7 +115,6 @@ h2 {
 article{
         background-color: rgb(251, 250, 250);
         }
-
 div.video {
         background-color: var(--cor5);
         margin: 0px -20px 30px -20px;
